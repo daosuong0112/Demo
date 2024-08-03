@@ -97,6 +97,7 @@ app.post('/openInvoice', async (req, res) => {
         }
 
         const msg = await bot.telegram.createInvoiceLink(data);
+        console.log("Invoice sent");
 
         res.send({ status: 'Invoice sent', data: msg });
     } catch (error) {

@@ -1,4 +1,9 @@
 {
+  "name": "t09_server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node telegram.js"
+  },
   "dependencies": {
     "axios": "^1.7.3",
     "body-parser": "^1.20.2",
